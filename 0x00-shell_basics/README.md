@@ -12,4 +12,5 @@ rm /tmp/my_first_directory/betty : deletes or removes the file called betty insi
 rmdir /tmp/my_first_directory/ : deletes or removes the empty directory called my_first_directory.
 cd - : changes the working directory to the previous one.
 ls -al . .. /boot : lists all files in the directory and the parent of the working directory and the /boot directory, in long format.
-file /tmp/iamafile : prints the type of file named iamafile  
+file /tmp/iamafile : prints the type of file named iamafile
+ln -s /bin/ls __ls__ : creates a symbolic link to /bin/ls, named __ls__.  
