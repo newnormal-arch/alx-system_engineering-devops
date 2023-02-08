@@ -11,4 +11,5 @@ mv /tmp/betty /tmp/my_first_directory/ : moves the file betty from the tmp direc
 rm /tmp/my_first_directory/betty : deletes or removes the file called betty inside the my_first_directory directory.
 rmdir /tmp/my_first_directory/ : deletes or removes the empty directory called my_first_directory.
 cd - : changes the working directory to the previous one.
-ls -al . .. /boot : lists all files in the directory and the parent of the working directory and the /boot directory, in long format.  
+ls -al . .. /boot : lists all files in the directory and the parent of the working directory and the /boot directory, in long format.
+file /tmp/iamafile : prints the type of file named iamafile  
