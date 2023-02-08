@@ -1,5 +1,6 @@
 ALX Systems Engineering Tasks
 
-pwd - prints the absolute path name of the current working directory.
-ls - displays the contents list of your current working directory.
-cd - changes the working directory to the user's home directory.
+pwd : prints the absolute path name of the current working directory.
+ls : displays the contents list of your current working directory.
+cd : changes the working directory to the user's home directory.
+ls -l : lists the contents of the current working directory in long format. 
