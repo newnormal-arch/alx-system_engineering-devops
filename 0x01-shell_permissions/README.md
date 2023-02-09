@@ -11,3 +11,4 @@ chmod a+x hello : adds execution permission to the owner, the group owner and th
 chmod 007 hello : adds all permissions to the users only.
 chmod 753 hello : adds a set of permissions to the file hello.
 chmod --reference olleh hello : sets the mode of the file hello the same as olleh’s mode.
+chmod a+X * : adds execute permission to all subdirectories of the current directory for the owner, the group owner and all other users.
