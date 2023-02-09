@@ -14,3 +14,4 @@ chmod --reference olleh hello : sets the mode of the file hello the same as olle
 chmod a+X * : adds execute permission to all subdirectories of the current directory for the owner, the group owner and all other users.
 mkdir -m 751 my_dir : creates a directory called my_dir with permissions 751 in the working directory.
 chgrp school hello : changes the group owner to school for the file hello.
+chown -R vincent:staff ./* : changes the owner to vincent and the group owner to staff for all the files and directories in the working directory.
