@@ -23,3 +23,4 @@ tr A Z | tr c e : Replace all characters A and c from input to Z and e respectiv
 tr -d Cc :  removes all letters c and C from input.
 rev : script that reverse its input.
 cut -d":" --fields=1,6 /etc/passwd | sort : displays all users and their home directories, sorted by users.
+find . -empty -printf "%f\n" : finds all empty files and directories in the current directory and all sub-directories.
