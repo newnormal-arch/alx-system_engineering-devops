@@ -12,3 +12,4 @@ echo $((TRUEKNOWLEDGE+128)) : script that prints the result of the addition of 1
 echo $((POWER/DIVIDE)) : prints the result of POWER divided by DIVIDE.
 echo $((BREATH**LOVE)) : displays the result of BREATH to the power LOVE.
 echo $((2#$BINARY)) : script that converts a number from base 2 to base 10.
+echo {a..z}{a..z} | tr ' ' '\n' | grep -v oo : script that prints all possible combinations of two letters, except oo.
