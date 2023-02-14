@@ -10,3 +10,4 @@ BEST=School : script that creates a new local variable with name BEST and variab
 export BEST=School : script that creates a new global variable.
 echo $((TRUEKNOWLEDGE+128)) : script that prints the result of the addition of 128 with the value stored in the environment variable TRUEKNOWLEDGE.
 echo $((POWER/DIVIDE)) : prints the result of POWER divided by DIVIDE.
+echo $((BREATH**LOVE)) : displays the result of BREATH to the power LOVE.
