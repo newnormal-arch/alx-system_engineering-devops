@@ -7,3 +7,4 @@ echo $PATH | tr ":" "\n" | wc -l : counts the number of directories in the PATH.
 printenv : script that lists environment variables.
 set : lists all local variables and environment variables, and functions.
 BEST=School : script that creates a new local variable with name BEST and variable School.
+export BEST=School : script that creates a new global variable.
